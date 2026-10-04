@@ -542,7 +542,7 @@ function openCurrentPlayerLyrics() {
 function initGoogleAuthSDK() {
     if (window.google && google.accounts && google.accounts.id) {
         google.accounts.id.initialize({
-            client_id: "675849302847-exampleclientid.apps.googleusercontent.com", // Replace with your production Google Client ID
+            client_id: "674408550081-1v02esgg0tbff47fmaanh29qhfcoi9p8.apps.googleusercontent.com", // Replace with your production Google Client ID
             callback: handleGoogleAuthCallback,
             auto_select: false,
             cancel_on_tap_outside: true
